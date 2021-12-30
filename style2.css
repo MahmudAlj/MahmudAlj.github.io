@@ -53,7 +53,7 @@ footer {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: #000;
+    background: #000
 }
 
 .navbar .max-width {
@@ -73,7 +73,7 @@ footer {
     font-size: 50px;
     font-weight: 500;
     margin-left: 25px;
-    transition: color .3s ease
+    transition: color 0.4s ease
 }
 
 .navbar .menu li a:hover {
@@ -85,21 +85,11 @@ footer {
 }
 
 
-/* menu stil */
-
-.menu-btn {
-    color: #fff;
-    font-size: 23%;
-    cursor: pointer;
-    display: none;
-}
-
-
 /* home stil */
 
 .home {
     display: flex;
-    background: url(a0peWkv.jpeg) no-repeat center;
+    background: url(wallhaven-1k26d1.jpg) no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -134,7 +124,7 @@ footer {
 }
 
 .home .home-content {
-    color: #000;
+    color: #fff;
 }
 
 
