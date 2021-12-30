@@ -1,0 +1,381 @@
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400; 500; 600; 700&family=Ubuntu:wght@400; 500; 700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.about,
+.skills,
+.contact,
+footer {
+    font-family: poppins, sans-serif
+}
+
+.about .about-content,
+.skills .skills-content,
+.contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+/* navbar stil */
+
+.navbar .logo {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 600
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: waterfall, sans-serif;
+    transition: all .3s ease
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: #000;
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block
+}
+
+.navbar .menu li a {
+    display: block;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color .3s ease
+}
+
+.navbar .menu li a:hover {
+    color: blue
+}
+
+.navbar.sticky .menu li a:hover {
+    color: #fff
+}
+
+
+/* menu stil */
+
+.menu-btn {
+    color: #fff;
+    font-size: 23%;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* home stil */
+
+.home {
+    display: flex;
+    background: url(a0peWkv.jpeg) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: waterfall, sans-serif;
+}
+
+.home .max-width {
+    width: 100%;
+    display: flex
+}
+
+.home .home-content .text-1 {
+    font-size: 60px
+}
+
+.home .home-content .text-2 {
+    font-size: 110px;
+    font-weight: 600;
+    margin-left: -3px
+}
+
+.home .home-content .text-3 {
+    font-size: 80px;
+    margin: 5px 0
+}
+
+.home .home-content .text-3 span {
+    color: crimson;
+    font-weight: 500
+}
+
+.home .home-content {
+    color: #000;
+}
+
+
+/* about stil */
+
+.about .lorem33 {
+    color: #fff;
+}
+
+.about .title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.about .about-content .left {
+    width: 45%
+}
+
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.about .about-content .right {
+    width: 55%
+}
+
+.about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.about .about-content .right .text span {
+    color: crimson
+}
+
+.about .about-content .right p {
+    text-align: justify
+}
+
+#photoimg {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* skills stil */
+
+.skills .lorem33 {
+    color: #fff;
+}
+
+
+/* .skills {
+    display: flex;
+    background: url(mahmudppp.png) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: waterfall, sans-serif;
+} */
+
+.skills .title {
+    font-size: 50px;
+    text-align: center;
+}
+
+.skills .skills-content .column {
+    width: calc(50% - 30px)
+}
+
+.skills .skills-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+
+.skills .skills-content .left p {
+    text-align: justify
+}
+
+.skills .skills-content .right .bars {
+    margin-bottom: 15px
+}
+
+.skills .skills-content .right .info {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between
+}
+
+.skills .skills-content .right span {
+    font-weight: 500;
+    font-size: 18px
+}
+
+.skills .skills-content .right .line {
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative
+}
+
+.skills .skills-content .right .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+}
+
+.skills-content .right .html::before {
+    width: 70%
+}
+
+.skills-content .right .css::before {
+    width: 50%
+}
+
+.skills-content .right .js::before {
+    width: 49%
+}
+
+.skills-content .right .python::before {
+    width: 40%
+}
+
+
+/* contact stil */
+
+.contact .lorem33 {
+    color: #fff;
+}
+
+
+/* .skills {
+    display: flex;
+    background: url(mahmudppp.png) no-repeat center;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: waterfall, sans-serif;
+} */
+
+.nonee {
+    list-style-type: none;
+}
+
+#booxxing {
+    width: 500px;
+    background: cadetblue;
+    padding: 50px;
+    text-align: center;
+    color: #000;
+    margin: auto;
+}
+
+.logoo {
+    display: inline-block;
+    margin: 8px;
+    text-align: center
+}
+
+.logoo a {
+    color: rgb(13, 11, 19);
+    font-size: 60px;
+    transform: all ease-in-out 300ms;
+}
+
+.logoo a:hover {
+    color: #b9b9b9;
+}
+
+.max-width .nonee {
+    margin-right: 39px;
+    text-align: center;
+}
+
+
+/* footer stil */
+
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center
+}
+
+
+/* contact2 stil */
+
+.contact {
+    padding: 10px 0;
+    margin: auto 15%;
+}
+
+.conicon {
+    font-size: 20px;
+}
+
+.contact .title {
+    font-size: 45px;
+    text-align: center;
+}
+
+.contact title::after {
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px
+}
+
+.contact-contact {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+
+/* <div class="container"> </div> */
+
+.contact-item {
+    width: 34%;
+    height: 126px;
+    flex-direction: column;
+    background-color: rgb(119, 69, 69);
+    border-radius: 10px;
+    margin: 20px;
+    border: 20px;
+    text-align: center;
+}
