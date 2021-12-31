@@ -282,15 +282,6 @@ footer {
     list-style-type: none;
 }
 
-#booxxing {
-    width: 500px;
-    background: cadetblue;
-    padding: 50px;
-    text-align: center;
-    color: #000;
-    margin: auto;
-}
-
 .logoo {
     display: inline-block;
     margin: 8px;
@@ -337,16 +328,6 @@ footer {
 .contact .title {
     font-size: 45px;
     text-align: center;
-}
-
-.contact title::after {
-    content: "";
-    width: 30px;
-    height: 3px;
-    background-color: #000;
-    margin: 0 auto;
-    display: block;
-    margin-top: 10px
 }
 
 .contact-contact {
