@@ -171,6 +171,8 @@ footer {
 #photoimg {
     border-radius: 25%;
     cursor: pointer;
+    width: 66%;
+    height: 400px;
 }
 
 
@@ -179,18 +181,6 @@ footer {
 .skills .lorem33 {
     color: #fff;
 }
-
-
-/* .skills {
-    display: flex;
-    background: url(mahmudppp.png) no-repeat center;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: waterfall, sans-serif;
-} */
 
 .skills .title {
     font-size: 50px;
