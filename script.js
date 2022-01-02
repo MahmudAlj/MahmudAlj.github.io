@@ -9,13 +9,8 @@ $(document).ready(function() {
 
     });
     // toggle menu/navbar script
-    $('.menu-btn').click(function() {
-        $('.navbar .menu').toggleclass("active");
-        $('.menu-btn').toggleclass("active");
 
-    });
-
-
+    $('.navbar .menuu').toggleclass("active");
 
 
 });

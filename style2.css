@@ -62,12 +62,12 @@ footer {
     justify-content: space-between
 }
 
-.navbar .menu li {
+.navbar .menuu li {
     list-style: none;
     display: inline-block
 }
 
-.navbar .menu li a {
+.navbar .menuu li a {
     display: block;
     color: #fff;
     font-size: 50px;
@@ -76,11 +76,11 @@ footer {
     transition: color 0.4s ease
 }
 
-.navbar .menu li a:hover {
+.navbar .menuu li a:hover {
     color: crimson
 }
 
-.navbar.sticky .menu li a:hover {
+.navbar.sticky .menuu li a:hover {
     color: #fff
 }
 
