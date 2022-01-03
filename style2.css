@@ -1,5 +1,6 @@
-@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400; 500; 600; 700&family=Ubuntu:wght@400; 500; 700&display=swap';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -38,7 +39,7 @@ footer {
 
 .navbar .logo {
     color: #fff;
-    font-size: 65px;
+    font-size: 40px;
     font-weight: 600
 }
 
@@ -47,7 +48,7 @@ footer {
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Waterfall', cursive;
     transition: all .3s ease
 }
 
@@ -70,7 +71,7 @@ footer {
 .navbar .menuu li a {
     display: block;
     color: #fff;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.4s ease
@@ -95,7 +96,7 @@ footer {
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Waterfall', cursive;
 }
 
 .home .max-width {
@@ -104,17 +105,17 @@ footer {
 }
 
 .home .home-content .text-1 {
-    font-size: 60px
+    font-size: 50px
 }
 
 .home .home-content .text-2 {
-    font-size: 110px;
+    font-size: 100px;
     font-weight: 600;
     margin-left: -3px
 }
 
 .home .home-content .text-3 {
-    font-size: 80px;
+    font-size: 65px;
     margin: 5px 0
 }
 
@@ -255,18 +256,6 @@ footer {
 .contact .lorem33 {
     color: #fff;
 }
-
-
-/* .skills {
-    display: flex;
-    background: url(mahmudppp.png) no-repeat center;
-    height: 100vh;
-    color: #fff;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: waterfall, sans-serif;
-} */
 
 .nonee {
     list-style-type: none;
