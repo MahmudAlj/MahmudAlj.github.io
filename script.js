@@ -8,7 +8,7 @@ $(document).ready(function() {
         }
 
     });
-    // toggle menu/navbar script
+
 
     $('.navbar .menuu').toggleclass("active");
 

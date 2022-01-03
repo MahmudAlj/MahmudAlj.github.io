@@ -1,5 +1,5 @@
 @import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400; 500; 600; 700&family=Ubuntu:wght@400; 500; 700&display=swap';
-@import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -47,7 +47,7 @@ footer {
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    font-family: waterfall, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     transition: all .3s ease
 }
 
@@ -95,7 +95,7 @@ footer {
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
-    font-family: waterfall, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .home .max-width {
@@ -281,7 +281,7 @@ footer {
 .logoo a {
     color: rgb(13, 11, 19);
     font-size: 60px;
-    transform: all ease-in-out 300ms;
+    transform: all ease-in-out 298ms;
 }
 
 .logoo a:hover {
