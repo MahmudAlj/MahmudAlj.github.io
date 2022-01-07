@@ -332,13 +332,3 @@ footer {
     border: 20px;
     text-align: center;
 }
-
-.linkodev:hover {
-    background-color: #fff;
-    text-align: center;
-}
-
-a {
-    color: #000;
-    text-decoration: none;
-}
