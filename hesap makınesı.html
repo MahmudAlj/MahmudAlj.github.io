@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+    <title>HESAP MAKİNESİ</title>
+    <meta charset="utf8">
+
+    <script>
+        let rakam1;
+        let rakam2;
+        let islem;
+        let sonuc;
+        
+        function hesapla() {
+           rakam1 = Number(document.getElementById("rakamGirisi1").value);
+           rakam2 = Number(document.getElementById("rakamGirisi2").value);
+            islem = document.getElementById("islemGirisi").value;
+            
+           
+            if (rakam1 === "" || rakam2 === "") {
+                return;
+            }
+            
+            switch(islem) {
+                case "top":
+                    sonuc = rakam1 + rakam2;
+                    break;
+                    
+                case "cik":
+                    sonuc = rakam1 - rakam2;
+                    break;
+
+                case "car":
+                    sonuc = rakam1 * rakam2;
+                    break;
+
+                case "bol":
+                    if (rakam2 == 0){
+                        alert("Sıfırla bölme yapamazsınız!");
+                        return;
+                    }
+                    sonuc = rakam1 / rakam2;
+                    break;
+                    
+                case "null":
+                    alert("YAPMAK İSTEDEĞİN İŞLEMİ SEÇİNİZ!");
+                    return;
+                    break;
+            }
+            
+            document.getElementById("sonucKutusu").value = sonuc;
+        }
+    </script>
+</head>
+
+<body>
+    <table align="center">
+        <tr>
+            <td>
+                <label for="rakamGirisi1">1. rakam:</label>
+            </td>
+            <td>
+                <input id="rakamGirisi1" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="rakamGirisi2">2. rakam:</label>
+            </td>
+            <td>
+                <input id="rakamGirisi2" type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="islemGirisi">  İşlem :</label>
+            </td>
+            <td>
+                <select id="islemGirisi">
+                    <option value="null">Seçim yapınız</option>
+                    <option value="top">Topla</option>
+                    <option value="cik">Çıkar</option>
+                    <option value="car">Çarp</option>
+                    <option value="bol">Böl</option>
+                </select>
+                <input type="button" value="   Hesapla   " onclick="hesapla()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="sonucKutusu">Sonuç:</label>
+            </td>
+            <td>
+                <input id="sonucKutusu" type="text" readonly>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
