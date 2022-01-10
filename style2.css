@@ -43,10 +43,11 @@ footer {
     font-weight: 600
 }
 
-.navbar .logo {
+
+/* .navbar .logo {
     text-decoration: underline;
     text-decoration-color: crimson;
-}
+} */
 
 .navbar {
     position: fixed;
