@@ -237,8 +237,8 @@ footer {
     content: "";
     position: absolute;
     height: 100%;
-    left: 0;
-    top: 0;
+    left: 10;
+    top: 10;
     background: #000;
 }
 
