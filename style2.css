@@ -243,7 +243,7 @@ footer {
 }
 
 .skills-content .right .html::before {
-    width: 70%
+    width: 50%
 }
 
 .skills-content .right .css::before {
@@ -251,11 +251,19 @@ footer {
 }
 
 .skills-content .right .js::before {
-    width: 49%
+    width: 50%
 }
 
 .skills-content .right .python::before {
-    width: 40%
+    width: 60%
+}
+
+.skills-content .right .c::before {
+    width: 70%
+}
+
+.skills-content .right .cplusplus::before {
+    width: 80%
 }
 
 
