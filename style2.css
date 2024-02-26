@@ -1,6 +1,9 @@
 @import 'https://fonts.googleapis.com/css2?family=Poppins&display=swap';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.cdnfonts.com/css/freestyle-script');
 * {
     margin: 0;
     padding: 0;
@@ -287,7 +290,6 @@ footer {
 .contact .lorem33 {
     color: #fff;
 }
-
 @-webkit-keyframes hvr-buzz-out {
     10% {
       -webkit-transform: translateX(3px) rotate(2deg);
