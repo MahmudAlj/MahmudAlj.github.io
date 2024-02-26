@@ -1,0 +1,105 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.menu {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.menu-group-heading {
+  
+  margin: 4%;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.menu-categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1978cb;
+  padding: 1%; 
+}
+
+.menu-categories button {
+  padding: 10px 20px;
+  font-size: 13px;
+  color: #0b0303;
+  background-color: #38cb17;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-categories button:hover {
+  background-color: #0de3e6;
+}
+
+.menu-group {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin: 1.5em;
+}
+
+.menu-item-text {
+  flex-grow: 1; 
+}
+
+.menu-item-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item-name {
+  font-size: 12px;
+  margin-right: 1.5em;
+}
+.menu-item-price{
+  font-size: 12px;
+  margin-left: 1.5em;
+}
+
+p{
+  font-size: 12px;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .menu-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-item {
+    width: 100%;
+    margin-bottom: 10px; /* İsteğe bağlı olarak aralıkları ayarlayabilirsiniz */
+  }
+
+  .menu-item-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
+
