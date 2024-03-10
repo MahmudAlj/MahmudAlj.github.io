@@ -87,7 +87,7 @@ p{
   .menu-group {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: fixed;
   }
 
   .menu-item {
